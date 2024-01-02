@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-profile">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/messenger.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo/favicon.ico">
+    <title>Mordeczko - profile page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a style="text-decoration: none;" href="./index.html">
+                <div class="logo__container">
+                    <img class="logo__image" src="./images/logo/mordechko.png" alt="logo">
+                    <span class="logo__name">MORDECHKO</span>
+                </div>
+            </a>
+            <div class="links__controller">
+                <a class="head__link" href="./index.html">Main</a>
+                <a class="head__link selected" href="./messenger.html">Message</a>
+                <a class="head__link" href="./contacts.html">Contacts</a>
+                <a class="head__link" href="./support.html">Support</a>
+            </div>
+            <div class="account__controller">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" viewBox="0 0 50 25" fill="none">
+                    <rect x="1" y="1" width="47.4048" height="23" rx="11.5" stroke="white" stroke-opacity="0.5"
+                        stroke-width="2" />
+                    <circle cx="13.0953" cy="12.5" r="8.92857" fill="#D9D9D9" />
+                    <path
+                        d="M37.0908 7.99854V6.77086C37.0908 6.66233 37.1339 6.55824 37.2107 6.48149C37.2874 6.40475 37.3915 6.36163 37.5 6.36163C37.6086 6.36163 37.7126 6.40475 37.7894 6.48149C37.8661 6.55824 37.9093 6.66233 37.9093 6.77086V7.99854C37.9093 8.10707 37.8661 8.21116 37.7894 8.2879C37.7126 8.36465 37.6086 8.40776 37.5 8.40776C37.3915 8.40776 37.2874 8.36465 37.2107 8.2879C37.1339 8.21116 37.0908 8.10707 37.0908 7.99854ZM37.5 9.22622C36.8525 9.22622 36.2196 9.41822 35.6812 9.77795C35.1428 10.1377 34.7232 10.649 34.4754 11.2472C34.2276 11.8454 34.1628 12.5037 34.2891 13.1387C34.4154 13.7738 34.7272 14.3571 35.1851 14.815C35.6429 15.2728 36.2263 15.5846 36.8613 15.7109C37.4964 15.8373 38.1546 15.7724 38.7529 15.5246C39.3511 15.2768 39.8624 14.8572 40.2221 14.3189C40.5818 13.7805 40.7738 13.1475 40.7738 12.5C40.7729 11.632 40.4277 10.7999 39.8139 10.1861C39.2002 9.57239 38.368 9.22716 37.5 9.22622ZM33.9367 9.51574C34.0135 9.59253 34.1176 9.63567 34.2262 9.63567C34.3348 9.63567 34.439 9.59253 34.5157 9.51574C34.5925 9.43896 34.6357 9.33481 34.6357 9.22622C34.6357 9.11762 34.5925 9.01348 34.5157 8.93669L33.6973 8.11824C33.6205 8.04145 33.5164 7.99831 33.4078 7.99831C33.2992 7.99831 33.195 8.04145 33.1182 8.11824C33.0414 8.19502 32.9983 8.29917 32.9983 8.40776C32.9983 8.51636 33.0414 8.6205 33.1182 8.69729L33.9367 9.51574ZM33.9367 15.4843L33.1182 16.3028C33.0414 16.3795 32.9983 16.4837 32.9983 16.5923C32.9983 16.7009 33.0414 16.805 33.1182 16.8818C33.195 16.9586 33.2992 17.0017 33.4078 17.0017C33.5164 17.0017 33.6205 16.9586 33.6973 16.8818L34.5157 16.0634C34.5538 16.0253 34.5839 15.9802 34.6045 15.9305C34.6251 15.8808 34.6357 15.8276 34.6357 15.7738C34.6357 15.7201 34.6251 15.6668 34.6045 15.6171C34.5839 15.5675 34.5538 15.5223 34.5157 15.4843C34.4777 15.4463 34.4326 15.4161 34.3829 15.3955C34.3332 15.375 34.28 15.3644 34.2262 15.3644C34.1724 15.3644 34.1192 15.375 34.0695 15.3955C34.0198 15.4161 33.9747 15.4463 33.9367 15.4843ZM40.7738 9.63544C40.8276 9.63549 40.8808 9.62494 40.9305 9.6044C40.9802 9.58386 41.0253 9.55373 41.0634 9.51574L41.8818 8.69729C41.9586 8.6205 42.0017 8.51636 42.0017 8.40776C42.0017 8.29917 41.9586 8.19502 41.8818 8.11824C41.805 8.04145 41.7009 7.99831 41.5923 7.99831C41.4837 7.99831 41.3795 8.04145 41.3028 8.11824L40.4843 8.93669C40.427 8.99392 40.388 9.06687 40.3722 9.14629C40.3564 9.22572 40.3645 9.30805 40.3955 9.38286C40.4265 9.45768 40.479 9.52162 40.5463 9.56658C40.6137 9.61154 40.6929 9.63551 40.7738 9.63544ZM41.0634 15.4843C40.9866 15.4075 40.8824 15.3644 40.7738 15.3644C40.6652 15.3644 40.5611 15.4075 40.4843 15.4843C40.4075 15.5611 40.3644 15.6652 40.3644 15.7738C40.3644 15.8824 40.4075 15.9866 40.4843 16.0634L41.3028 16.8818C41.3408 16.9198 41.3859 16.95 41.4356 16.9706C41.4853 16.9912 41.5385 17.0017 41.5923 17.0017C41.6461 17.0017 41.6993 16.9912 41.749 16.9706C41.7987 16.95 41.8438 16.9198 41.8818 16.8818C41.9198 16.8438 41.95 16.7987 41.9706 16.749C41.9912 16.6993 42.0017 16.6461 42.0017 16.5923C42.0017 16.5385 41.9912 16.4853 41.9706 16.4356C41.95 16.3859 41.9198 16.3408 41.8818 16.3028L41.0634 15.4843ZM33.4078 12.5C33.4078 12.3915 33.3646 12.2874 33.2879 12.2107C33.2112 12.1339 33.1071 12.0908 32.9985 12.0908H31.7709C31.6623 12.0908 31.5582 12.1339 31.4815 12.2107C31.4047 12.2874 31.3616 12.3915 31.3616 12.5C31.3616 12.6086 31.4047 12.7126 31.4815 12.7894C31.5582 12.8661 31.6623 12.9093 31.7709 12.9093H32.9985C33.1071 12.9093 33.2112 12.8661 33.2879 12.7894C33.3646 12.7126 33.4078 12.6086 33.4078 12.5ZM37.5 16.5923C37.3915 16.5923 37.2874 16.6354 37.2107 16.7121C37.1339 16.7889 37.0908 16.893 37.0908 17.0015V18.2292C37.0908 18.3377 37.1339 18.4418 37.2107 18.5186C37.2874 18.5953 37.3915 18.6384 37.5 18.6384C37.6086 18.6384 37.7126 18.5953 37.7894 18.5186C37.8661 18.4418 37.9093 18.3377 37.9093 18.2292V17.0015C37.9093 16.893 37.8661 16.7889 37.7894 16.7121C37.7126 16.6354 37.6086 16.5923 37.5 16.5923ZM43.2292 12.0908H42.0015C41.893 12.0908 41.7889 12.1339 41.7121 12.2107C41.6354 12.2874 41.5923 12.3915 41.5923 12.5C41.5923 12.6086 41.6354 12.7126 41.7121 12.7894C41.7889 12.8661 41.893 12.9093 42.0015 12.9093H43.2292C43.3377 12.9093 43.4418 12.8661 43.5186 12.7894C43.5953 12.7126 43.6384 12.6086 43.6384 12.5C43.6384 12.3915 43.5953 12.2874 43.5186 12.2107C43.4418 12.1339 43.3377 12.0908 43.2292 12.0908Z"
+                        fill="white" />
+                </svg>
+                <a class="head__link white" href="./index.html">Logout</a>
+            </div>
+        </div>
+    </header>
+    <div class="profile__container">
+        <section class="profile__title__container">
+            <div class="profile__content">
+                <img class="profile__image"
+                    src="https://st.depositphotos.com/1000978/3330/i/450/depositphotos_33302473-stock-photo-man-eating-carrot.jpg"
+                    alt="profile_id">
+                <div class="profile__title">
+                    <span class="profile__status"><svg class="online__status" xmlns="http://www.w3.org/2000/svg"
+                            width="31" height="31" viewBox="0 0 31 31" fill="none">
+                            <g filter="url(#filter0_d_14_639)">
+                                <circle cx="15.5" cy="15.5" r="7.5" fill="#3FFF3C" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_14_639" x="0" y="0" width="31" height="31"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset />
+                                    <feGaussianBlur stdDeviation="4" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.333333 0 0 0 0 1 0 0 0 0 0.36 0 0 0 0.5 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_14_639" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_14_639"
+                                        result="shape" />
+                                </filter>
+                            </defs>
+                        </svg> ONLINE</span>
+                    <h5 class="profile__name">John John</h5>
+                    <div class="profile__button__container">
+                        <a class="profile__button">Add friend</a>
+                        <a class="profile__button subscribe">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile__buttons">
+                <a class="profile__select target">PROFILE</a>
+                <a class="profile__select">FRIENDS</a>
+                <a class="profile__select">FOLLOWERS</a>
+                <a class="profile__select">MORE</a>
+            </div>
+        </section>
+        <section class="profile__description__container">
+            <form class="profile__change__data__form" action="#" method="post">
+                <section class="change__data__container">
+                    <div class="change__data__side">
+                        <span class="form__title">First name</span>
+                        <input class="account__input" type="text" autocomplete="off" name="first_name">
+                        <span class="form__title">Second name</span>
+                        <input class="account__input" type="text" autocomplete="off" name="second_name">
+                    </div>
+                    <div class="change__data__side">
+                        <span class="form__title">Email</span>
+                        <input class="account__input" type="email" autocomplete="off" name="email">
+                        <span class="form__title">Password</span>
+                        <input class="account__input" type="password" name="password">
+                    </div>
+                </section>
+                <section class="submit__container">
+                    <button type="submit" class="submit__button">Change</button>
+                </section>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
